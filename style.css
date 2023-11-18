@@ -2,19 +2,40 @@
     background-color: #0d0d85;
     color: white;
     font-family: sans-serif, "Times New Roman", Helvetica;
+    text-align: center;
 }
 
 h1{
-    text-align: center;
     font-size: 32px;
+}
+
+h2{
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+ol li,
+ul li,
+h2,
+p{
+    text-align: left;
+}
+
+ul li{
+    list-style-type: disc;
 }
 
 ul{
     font-size: 18px;
-    text-align: center;
     list-style-type: none;
 }
 
 li{
     margin: 15px 0px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
